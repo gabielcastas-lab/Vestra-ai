@@ -1,0 +1,12 @@
+# Cadastre estas variaveis no painel do Render (Environment). NUNCA envie um arquivo .env ao GitHub.
+# NAO defina PORT: o Render define automaticamente.
+NODE_ENV=production
+
+SUPABASE_URL=https://abbnzrpwevavmdrazjys.supabase.co
+SUPABASE_SECRET_KEY=            # chave SECRETA do Supabase (sb_secret_... ou service_role). So no Render.
+
+HOTMART_HOTTOK=                 # hottok da conta Hotmart
+FASHN_API_KEY=                  # chave da FASHN (IA de provador)
+
+CREDITS_ROLLOVER=false          # false = creditos nao usados expiram na renovacao
+CORS_ORIGIN=                    # deixe vazio: o site e servido pelo proprio backend
